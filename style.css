@@ -5,11 +5,144 @@
 }
 /* Header */
 .header{
-    background-image: url(images/donation2.jpg);
-    width: 1400px;
-    height: 700px;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(images/donation2.jpg);
+    height: 669px;                 /* Here Background image with gradient */
+    background-size: cover;        /* covers width */
+    background-position: center;
     background-repeat: no-repeat;
 }
+.header-section{
+    margin: 200px 300px;
+    position:absolute;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 65px;
+    font-family: 'Inter';
+    padding-bottom: 20px;
+}
+.header-discription{
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.btn-primary{
+    background: #FF5959;
+    align-items: center;
+    padding: 16px 15px;
+    gap: 8px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+/* Main part */
+.donate-today{
+    margin: 130px 338px;
+    text-align: center;
+}
+.dt-heading{
+    font-weight: 700;
+    font-size: 45px;
+}
+.dt-description{
+    padding: 20px 30px 50px 30px;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* Amount Part */
+.amount-part{
+    display: flex;
+    justify-content: center;
+}
+.amount{
+    margin: 0 22px 60px 22px;
+    padding: 43px 22px;
+    font-weight: 700;
+    font-size: 30px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+}
+.color-amount{
+    margin: 0 22px 60px 22px;
+    padding: 43px 22px;
+    font-weight: 700;
+    font-size: 30px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+/* Other Amount (Taka) */
+.input-taka{
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+}
+hr{
+    margin-top: 9.5px;
+    margin-bottom: 30px; 
+}
+
+/* Our Donate Plan */
+.donate{
+    justify-content: center;
+}
+.donate-heading{
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0 542px 20px 542px;
+}
+.donate-discription{
+    margin: 0 374px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+/* Donation Plan Card */
+.plans{
+    display:flex;
+    padding: 50px 157px 130px 157px;
+}
+.plan-1{
+    margin-right: 24px;
+    background: rgba(51, 217, 235, 0.1);
+    border-radius: 5px;
+    padding: 63px 23px 54px 23px; 
+}
+.plan-2{
+    margin-right: 24px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 63px 23px 54px 23px; 
+}
+.plan-3{
+    margin-right: 24px;
+    background: rgba(255, 240, 27, 0.1);
+    border-radius: 5px;
+    padding: 63px 23px 54px 23px; 
+}
+.card-heading{
+    padding-top: 30px;
+    padding-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.card-discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+
 
 
 
