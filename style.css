@@ -5,7 +5,7 @@
 }
 /* Header */
 .header{
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(images/donation2.jpg);
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(images/donation13.jpg);
     height: 669px;                 /* Here Background image with gradient */
     background-size: cover;        /* covers width */
     background-position: center;
@@ -140,6 +140,88 @@ hr{
     font-weight: 400;
     font-size: 16px;
     color: #707070;
+}
+/* First Blog | "Their lives depend on your donation" */
+.fist-blog{
+    padding: 20px 160px;
+    display: flex;
+}
+.blog{
+    margin: 120px 60px 50px 0;
+    width: 493px;
+    height: 374px;
+}
+.blog-header{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px 0;
+}
+.blog-description{
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.blog-img-1{
+    width: 500px;
+    height: 470px;
+    margin: 60px;
+    border-radius: 5px;
+}
+
+/* Second Blog. "They need us to survive" 
+Same as the first part. Just reverse the position. */
+.blog-img-2{
+    width: 500px;
+    height: 470px;
+    margin: 60px 100px 20px 0;
+    border-radius: 5px;
+}
+/* Get My updates */
+.update-section{
+    text-align: center;
+}
+.update-heading{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.update-discription{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 375px 50px;
+    color: #707070;
+}
+.update-info{
+    margin: 0px 350px 130px 350px;
+    background: #FFF4D6;
+    width: 809px;
+    height: 200px;
+}
+/* .email-subscribe{
+    border: none;
+    position: center;
+    margin-top: 70px;
+} */
+.update-email{
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    width: 275px;
+    height: 48px;
+    padding-left: 15px;
+    margin-top: 70px;
+    border: none;
+}
+.update-subscribe{
+    width: 157px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 40px;
+    color: white;
 }
 
 
