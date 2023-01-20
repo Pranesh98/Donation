@@ -1,0 +1,15 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+/* Header */
+.header{
+    background-image: url(images/donation2.jpg);
+    width: 1400px;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+
+
