@@ -177,6 +177,7 @@ Same as the first part. Just reverse the position. */
     margin: 60px 100px 20px 0;
     border-radius: 5px;
 }
+
 /* Get My updates */
 .update-section{
     text-align: center;
@@ -198,11 +199,6 @@ Same as the first part. Just reverse the position. */
     width: 809px;
     height: 200px;
 }
-/* .email-subscribe{
-    border: none;
-    position: center;
-    margin-top: 70px;
-} */
 .update-email{
     background: #D9D9D9;
     border-radius: 5px 0px 0px 5px;
@@ -224,6 +220,27 @@ Same as the first part. Just reverse the position. */
     color: white;
 }
 
+/* Footer */
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 40px 500px;
+}
+.footer-heading{
+    width: 158px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FF5959;
+    font-family: 'Lobster';
+    letter-spacing: 0.5px;
+}
+.footer-tag{
+    color: #D9DBE1;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+}
 
 
 
